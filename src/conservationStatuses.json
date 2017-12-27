@@ -1,0 +1,41 @@
+[{
+	"symbol": "lc",
+	"name": "Least Concern",
+	"category": "Lower Risk"
+}, {
+	"symbol": "cd",
+	"name": "Conservation Dependent",
+	"category": "Lower Risk"
+}, {
+	"symbol": "nt",
+	"name": "Near Threatened",
+	"category": "Lower Risk"
+}, {
+	"symbol": "vu",
+	"name": "Vulnerable",
+	"category": "Threatened"
+}, {
+	"symbol": "en",
+	"name": "Endangered",
+	"category": "Threatened"
+}, {
+	"symbol": "cr",
+	"name": "Critically Endangered",
+	"category": "Threatened"
+}, {
+	"symbol": "ew",
+	"name": "Extinct in the Wild",
+	"category": "Extinct"
+}, {
+	"symbol": "ex",
+	"name": "Extinct",
+	"category": "Extinct"
+}, {
+	"symbol": "dd",
+	"name": "Data Deficient",
+	"category": "Other Category"
+}, {
+	"symbol": "ne",
+	"name": "Not Evaluated",
+	"category": "Other Category"
+}]

@@ -1,0 +1,23 @@
+.fish-card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.fish-card-header {
+	// border: 1px solid #aaa;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #aaa;
+}
+
+.fish-card-header-title {
+	font-size: 1.6em;
+}
+
+.fish-card-section {
+	padding: 10px;
+}
+
+.fish-card-summary-switch {
+	font-size: 0.8em;
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Striped Bass",
+		"alternativeNames": [
+			"Atlantic striped bass",
+			"striper",
+			"linesider",
+			"rock",
+			"rockfish"
+		],
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Morone_saxatilis_SI2.jpg",
+		"Kingdom": "Animalia",
+		"Phylum": "Chordata",
+		"Class": "Actinopterygii",
+		"Order": "Perciformes",
+		"Family": "Moronidae",
+		"Genus": "Morone",
+		"Species": "M. saxatilis",
+		"binomialName": "Morone saxatilis",
+		"conservationStatus": "lc",
+		"averageSizeFormat": "cm",
+		"averageSizeMin": 67,
+		"averageSizeMax": 100,
+		"maximumLengthFormat": "m",
+		"maximumLength": 1.8,
+		"commonMatureWeightFormat": "lbs",
+		"commonMatureWeightMin": 8,
+		"commonMatureWeightMax": 40,
+		"locations": [{
+			"lat": "39.0458 N",
+			"long": "76.6413 W",
+			"name": "Maryland"
+		}],
+		"shortAssessment": "Striped bass caught in the U.S. Atlantic with hooks and lines is a \"Best Choice\" because bycatch and habitat impacts are very low and management is effective. This fishery is mostly made up of recreational fishers, and striped bass caught with hooks and lines is primarily sold on the Atlantic seaboard.",
+		"summaryAssessment": "Striped bass caught in the U.S. Atlantic with hooks and lines is a \"Best Choice\" because bycatch and habitat impacts are very low and management is effective. This fishery is mostly made up of recreational fishers, and striped bass caught with hooks and lines is primarily sold on the Atlantic seaboard.\n\nStriped bass caught in the U.S. Atlantic with gillnets or pound nets is a \"Good Alternative.\" Overfishing is not occurring, but there's bycatch of depleted and at-risk species, including American shad, Atlantic sturgeon, river herring and weakfish. These fishing gears have a moderate impact on seafloor habitat as well."
+
+	}
+]

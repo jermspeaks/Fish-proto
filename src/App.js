@@ -2,24 +2,18 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import FishList from './FishList';
+import fishData from './fish.json';
 
 class App extends Component {
   static defaultProps = {
-    fishData: [
-      {
-        name: 'Small Fish'
-      },
-      {
-        name: 'Big Fish'
-      }
-    ]
+    fishData: fishData
   };
 
   render() {
     return (
       <div className="App">
         <Header />
-        <section>
+        <section className="App-container">
           <FishList data={this.props.fishData} />
         </section>
       </div>
