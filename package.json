@@ -2,7 +2,7 @@
   "name": "fish-proto",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://myname.github.io/fish-proto",
+  "homepage" : "http://www.craftbyzen.com/Fish-proto/",
   "dependencies": {
     "lodash": "^4.17.4",
     "react": "^16.2.0",
