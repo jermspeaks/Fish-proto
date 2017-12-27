@@ -8,7 +8,8 @@
 			"rock",
 			"rockfish"
 		],
-		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Morone_saxatilis_SI2.jpg",
+		"imageUrl":
+			"https://upload.wikimedia.org/wikipedia/commons/7/74/Morone_saxatilis_SI2.jpg",
 		"Kingdom": "Animalia",
 		"Phylum": "Chordata",
 		"Class": "Actinopterygii",
@@ -26,13 +27,53 @@
 		"commonMatureWeightFormat": "lbs",
 		"commonMatureWeightMin": 8,
 		"commonMatureWeightMax": 40,
-		"locations": [{
-			"lat": "39.0458 N",
-			"long": "76.6413 W",
-			"name": "Maryland"
-		}],
-		"shortAssessment": "Striped bass caught in the U.S. Atlantic with hooks and lines is a \"Best Choice\" because bycatch and habitat impacts are very low and management is effective. This fishery is mostly made up of recreational fishers, and striped bass caught with hooks and lines is primarily sold on the Atlantic seaboard.",
-		"summaryAssessment": "Striped bass caught in the U.S. Atlantic with hooks and lines is a \"Best Choice\" because bycatch and habitat impacts are very low and management is effective. This fishery is mostly made up of recreational fishers, and striped bass caught with hooks and lines is primarily sold on the Atlantic seaboard.\n\nStriped bass caught in the U.S. Atlantic with gillnets or pound nets is a \"Good Alternative.\" Overfishing is not occurring, but there's bycatch of depleted and at-risk species, including American shad, Atlantic sturgeon, river herring and weakfish. These fishing gears have a moderate impact on seafloor habitat as well."
-
+		"locations": [
+			{
+				"lat": "39.0458 N",
+				"long": "76.6413 W",
+				"name": "Maryland"
+			}
+		],
+		"shortAssessment":
+			"Striped bass caught in the U.S. Atlantic with hooks and lines is a \"Best Choice\" because bycatch and habitat impacts are very low and management is effective. This fishery is mostly made up of recreational fishers, and striped bass caught with hooks and lines is primarily sold on the Atlantic seaboard.",
+		"summaryAssessment":
+			"Striped bass caught in the U.S. Atlantic with hooks and lines is a \"Best Choice\" because bycatch and habitat impacts are very low and management is effective. This fishery is mostly made up of recreational fishers, and striped bass caught with hooks and lines is primarily sold on the Atlantic seaboard.\n\nStriped bass caught in the U.S. Atlantic with gillnets or pound nets is a \"Good Alternative.\" Overfishing is not occurring, but there's bycatch of depleted and at-risk species, including American shad, Atlantic sturgeon, river herring and weakfish. These fishing gears have a moderate impact on seafloor habitat as well."
+	},
+	{
+		"name": "Atlantic bluefin tuna",
+		"alternativeNames": [
+			"northern bluefin tuna"
+		],
+		"imageUrl":
+			"https://upload.wikimedia.org/wikipedia/commons/1/18/Bluefin-big.jpg",
+		"Kingdom": "Animalia",
+		"Phylum": "Chordata",
+		"Class": "Actinopterygii",
+		"Order": "Perciformes",
+		"Family": "Scombridae",
+		"Genus": "Thunnus",
+		"Subgenus": "Thunnus",
+		"Species": "T. thynnus",
+		"binomialName": "Thunnus thynnus",
+		"conservationStatus": "en",
+		"averageSizeFormat": "m",
+		"averageSizeMin": 2,
+		"averageSizeMax": 2.5,
+		"maximumLengthFormat": "m",
+		"maximumLength": 2.5,
+		"commonMatureWeightFormat": "kgs",
+		"commonMatureWeightMin": 225,
+		"commonMatureWeightMax": 250,
+		"locations": [
+			{
+				"lat": "39.0458 N",
+				"long": "76.6413 W",
+				"name": "Maryland"
+			}
+		],
+		"shortAssessment":
+			"Bluefin tuna caught in Canada's Atlantic with drifting longlines is on the \"Avoid\" list. The stocks are depleted, and overfishing is still occurring. The catch of turtles, seabirds, marine mammals, sharks and other vulnerable species is also a critical concern. In addition, the management measures to help bluefin stocks recover and reduce the catch of endangered, threatened or overfished species are rated ineffective.",
+		"summaryAssessment":
+			"Bluefin tuna caught in the Atlantic and Mediterranean Sea by any method and farmed in the Mediterranean in marine net pens is on the \"Avoid\" list. The stocks are depleted, and overfishing is still occurring. U.S. longline fleets have lower bycatch because of tougher regulations, but the catch of at-risk or depleted species remains a serious concern. The catch of turtles, seabirds, marine mammals, sharks and other vulnerable species is a critical concern in the international drifting longline fisheries. In addition, the management measures to help bluefin stocks recover and reduce the catch of endangered, threatened or overfished species are rated ineffective in these international fisheries.\n\nAll bluefin tuna that's farmed in the Mediterranean Sea is sourced from threatened wild stocks. In addition, the highly inefficient conversion of feed into harvestable fish is a critical concern. On average, 20 tons of wild fish are used to produce a single ton of farmed bluefin tuna."
 	}
 ]

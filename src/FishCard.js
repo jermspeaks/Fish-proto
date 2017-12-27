@@ -42,7 +42,7 @@ class FishCard extends Component {
 					</div>
 				</section>
 				<section className="fish-card-section">
-					<img src={data.imageUrl} alt={data.name} />
+					<img src={data.imageUrl} width="400" alt={data.name} />
 				</section>
 				<section className="fish-card-section">
 					{this.state.showMore ? (
