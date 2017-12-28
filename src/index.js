@@ -5,4 +5,7 @@ import Root from './Root';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<Root />, document.getElementById('root'));
-registerServiceWorker();
+
+if (location.protocol === 'https:') {
+	registerServiceWorker();
+}
