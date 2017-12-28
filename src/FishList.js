@@ -69,17 +69,8 @@ class FishList extends Component {
 					/>
 				</div>
 				<div className="fish-results">
-					<div className="fish-list-container">
-						<ul className="fish-list">
-							{this.state.data.map((fish, index) => (
-								<li key={index} className="fish-list-item">
-									<FishCard data={fish} />
-								</li>
-							))}
-						</ul>
-					</div>
 					<div className="fish-alphabet-filter">
-						<ul className="fish-alphabet-filter-list">
+						<ul className="fish-alphabet-filter-wrapper">
 							{'ABCDEFGHIKLMOPRSTVW'.split('').map((letter, index) => {
 								const isSelected = this.state.selectedLetter === letter;
 								const letterContainerClassName = classnames('fish-alphabet-filter-box', {
@@ -91,6 +82,15 @@ class FishList extends Component {
 									</li>
 								);
 							})}
+						</ul>
+					</div>
+					<div className="fish-list-container">
+						<ul className="fish-list">
+							{this.state.data.map((fish, index) => (
+								<li key={index} className="fish-list-item">
+									<FishCard data={fish} />
+								</li>
+							))}
 						</ul>
 					</div>
 				</div>
