@@ -44,6 +44,11 @@
 	flex: 0 0 50px;
 }
 
+.fish-alphabet-filter-letter:hover {
+	background: #ccc;
+	cursor: pointer;
+}
+
 .fish-alphabet-filter-box {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -57,4 +62,8 @@
 
 .fish-alphabet-filter-box--selected {
 	background: yellow;
+}
+
+.fish-alphabet-filter-box--selected:hover {
+	background: #e5e500;	
 }

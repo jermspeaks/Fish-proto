@@ -38,10 +38,21 @@ class FishList extends Component {
 	}
 
 	selectLetter(letter) {
+		let nextSelectedLetter,
+			nextData;
+
+		if (this.state.selectedLetter === letter) {
+			nextSelectedLetter = '';
+			nextData = this.props.data;
+		} else {
+			nextSelectedLetter = letter;
+			nextData = this.props.data.filter(entry => entry.name[0].toLowerCase() === letter.toLowerCase());
+		}
+
 		this.setState({
 			inputValue: '',
-			data: this.props.data.filter(entry => entry.name[0].toLowerCase() === letter.toLowerCase()),
-			selectedLetter: letter
+			data: nextData,
+			selectedLetter: nextSelectedLetter
 		});
 	}
 
@@ -75,7 +86,7 @@ class FishList extends Component {
 									'fish-alphabet-filter-box--selected': isSelected
 								});
 								return (
-									<li key={index}>
+									<li key={index} className='fish-alphabet-filter-letter'>
 										<div className={letterContainerClassName} onClick={() => this.selectLetter(letter)}>{letter}</div>
 									</li>
 								);
