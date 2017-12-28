@@ -3,6 +3,21 @@
 	padding-left: 0;	
 }
 
+.fish-list-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fish-list-item:first-child {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.fish-list-item:last-child {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
 .fish-filter {
 	margin-top: 1em;
 }

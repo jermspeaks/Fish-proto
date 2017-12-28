@@ -49,7 +49,7 @@ class FishList extends Component {
 				<div>
 					<ul className="fish-list">
 						{this.state.data.map((fish, index) => (
-							<li key={index}>
+							<li key={index} className="fish-list-item">
 								<FishCard data={fish} />
 							</li>
 						))}
