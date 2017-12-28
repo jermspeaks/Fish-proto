@@ -1,11 +1,10 @@
 .header-wrapper {
-  background-color: #fff;
+  background-color: #ddd;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 20px;
   padding-right: 20px;
   color: #000080;
-  border-bottom: 1px solid #aaa;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;

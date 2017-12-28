@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
 import './FishCard.css';
-import statuses from './conservationStatuses.json';
+import statuses from '../data/conservationStatuses.json';
+import { Link } from 'react-router-dom';
 
 class FishCard extends Component {
 	static propTypes = {
@@ -32,7 +33,9 @@ class FishCard extends Component {
 		return (
 			<div className="fish-card">
 				<header className="fish-card-header">
-					<div className="fish-card-header-title">{data.name}</div>
+					<div className="fish-card-header-title">
+						<Link className="fish-card-header-title-link" to={`/fish/${data.name}`}>{data.name}</Link>
+					</div>
 				</header>
 				{/*
 				<section className="fish-card-section">

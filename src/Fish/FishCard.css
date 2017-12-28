@@ -7,12 +7,21 @@
 	// border: 1px solid #aaa;
 	padding-left: 10px;
 	padding-right: 10px;
-	background: #aaa;
+	background: #ddd;
 }
 
 .fish-card-header-title {
 	font-size: 1.6em;
 	line-height: 1.8em;
+}
+
+.fish-card-header-title-link {
+	text-decoration: none;
+	color: black;
+}
+
+.fish-card-header-title-link:hover {
+	color: #888;
 }
 
 .fish-card-section {

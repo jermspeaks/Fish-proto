@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './Header';
-import FishList from './FishList';
-import fishData from './monterey-fish.json';
+import './Home.css';
+import Header from '../Common/Header';
+import FishList from '../Fish/FishList';
+import fishData from '../data/monterey-fish.json';
 
-class App extends Component {
+class Home extends Component {
   static defaultProps = {
     fishData: fishData
   };
@@ -21,4 +21,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
