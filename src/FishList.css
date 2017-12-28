@@ -1,4 +1,5 @@
-.fish-list {
+.fish-list,
+.fish-alphabet-filter-list {
 	list-style: none;
 	padding-left: 0;	
 }
@@ -26,4 +27,34 @@
 	width: 100%;
 	line-height: 2em;
 	font-size: 1em;
+}
+
+.fish-results {
+	display: flex;
+	flex-direction: row;
+}
+
+.fish-list-container {
+	flex: 0 1 100%;
+}
+
+.fish-alphabet-filter {
+	padding-left: 10px;
+	padding-right: 10px;
+	flex: 0 0 50px;
+}
+
+.fish-alphabet-filter-box {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.fish-alphabet-filter-box--selected {
+	background: yellow;
 }

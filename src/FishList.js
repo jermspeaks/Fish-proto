@@ -3,6 +3,7 @@ import propTypes from 'prop-types';
 import FishCard from './FishCard';
 import './FishList.css';
 import throttle from 'lodash/throttle';
+import classnames from 'classnames';
 
 class FishList extends Component {
 	static propTypes = {
@@ -14,7 +15,8 @@ class FishList extends Component {
 
 		this.state = {
 			inputValue: '',
-			data: props.data
+			data: props.data,
+			selectedLetter: ''
 		}
 	}
 
@@ -30,7 +32,16 @@ class FishList extends Component {
 
 		this.setState({ 
 			inputValue: nextValue,
-			data: nextData
+			data: nextData,
+			selectedLetter: ''
+		});
+	}
+
+	selectLetter(letter) {
+		this.setState({
+			inputValue: '',
+			data: this.props.data.filter(entry => entry.name[0].toLowerCase() === letter.toLowerCase()),
+			selectedLetter: letter
 		});
 	}
 
@@ -46,14 +57,31 @@ class FishList extends Component {
 						placeholder="Filter Fish"
 					/>
 				</div>
-				<div>
-					<ul className="fish-list">
-						{this.state.data.map((fish, index) => (
-							<li key={index} className="fish-list-item">
-								<FishCard data={fish} />
-							</li>
-						))}
-					</ul>	
+				<div className="fish-results">
+					<div className="fish-list-container">
+						<ul className="fish-list">
+							{this.state.data.map((fish, index) => (
+								<li key={index} className="fish-list-item">
+									<FishCard data={fish} />
+								</li>
+							))}
+						</ul>
+					</div>
+					<div className="fish-alphabet-filter">
+						<ul className="fish-alphabet-filter-list">
+							{'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map((letter, index) => {
+								const isSelected = this.state.selectedLetter === letter;
+								const letterContainerClassName = classnames('fish-alphabet-filter-box', {
+									'fish-alphabet-filter-box--selected': isSelected
+								});
+								return (
+									<li key={index}>
+										<div className={letterContainerClassName} onClick={() => this.selectLetter(letter)}>{letter}</div>
+									</li>
+								);
+							})}
+						</ul>
+					</div>
 				</div>
 			</div>
 		);
