@@ -1,0 +1,39 @@
+.fish-individual-title {
+	font-size: 1.85em;
+	text-align: center;
+}
+
+.fish-individual-wrapper {
+	border: 10px solid #000080;
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 1024px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.fish-individual-wrapper {
+		width: 90%;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 481px) 
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.fish-individual-wrapper {
+		width: 85%;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.fish-individual-wrapper {
+		width: 80%;
+	}
+}

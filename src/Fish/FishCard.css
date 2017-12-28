@@ -1,6 +1,7 @@
 .fish-card {
 	border: 1px solid #ccc;
 	border-radius: 5px;
+	width: 200px;
 }
 
 .fish-card-header {
@@ -25,7 +26,17 @@
 }
 
 .fish-card-section {
-	padding: 10px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.fish-card-section:first-child {
+	padding-top: 10px;
+}
+
+.fish-card-section:last-child {
+	padding-bottom: 10px;
 }
 
 .fish-card-summary-switch {
