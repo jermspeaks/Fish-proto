@@ -2,7 +2,7 @@
   "name": "fish-proto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.craftbyzen.com/Fish-proto/",
+  "homepage": "http://jermspeaks.github.io/Fish-proto/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "lodash": "^4.17.4",
