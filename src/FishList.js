@@ -37,8 +37,14 @@ class FishList extends Component {
 	render() {
 		return (
 			<div className="fish-container">
-				<div>
-					<input type="text" value={this.state.inputValue} onChange={throttle(this.onInputChange.bind(this), 200)}/>
+				<div className="fish-filter">
+					<input 
+						className="fish-filter-input" 
+						type="text" 
+						value={this.state.inputValue} 
+						onChange={throttle(this.onInputChange.bind(this), 200)}
+						placeholder="Filter Fish"
+					/>
 				</div>
 				<div>
 					<ul className="fish-list">
