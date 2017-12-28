@@ -1,0 +1,32 @@
+.header-wrapper {
+  background-color: #fff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #000080;
+  border-bottom: 1px solid #aaa;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 1.15em;
+}
+
+.header-section-left {
+	height: 45.625px;
+}
+
+.header-section-left img {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.header-section-right {
+	width: 30px;
+	visibility: hidden;
+}

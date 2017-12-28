@@ -49,9 +49,9 @@ class FishCard extends Component {
 				<section className="fish-card-section">
 					<a 
 						className="fish-card-seafood-link"
-						href={`http://www.seafoodwatch.org/seafood-recommendations/groups/${data.name.toLowerCase()}/overview`} 
+						href={`http://www.seafoodwatch.org/seafood-recommendations/groups/${data.name.toLowerCase()}`} 
 						target="_blank"
-					>Seafood Watch</a>
+					>Recommendations</a>
 				</section>
 				{/*
 				<section className="fish-card-section">
