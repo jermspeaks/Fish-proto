@@ -22,3 +22,19 @@
 .fish-card-summary-switch {
 	font-size: 0.8em;
 }
+
+.fish-card-seafood-link {
+	display: inline-block;
+	text-decoration: none;
+	line-height: 1.8em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: black;
+}
+
+.fish-card-seafood-link:hover {
+	background-color: #ccc;
+	border-radius: 2px;
+}

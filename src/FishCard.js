@@ -46,8 +46,12 @@ class FishCard extends Component {
 				<section className="fish-card-section">
 					<img src={data.imageSrc} alt={data.imageAlt} />
 				</section>
-				<section>
-					<a href={`http://www.seafoodwatch.org/seafood-recommendations/groups/${data.name.toLowerCase()}/overview`} target="_blank">Seafood Watch Overview</a>
+				<section className="fish-card-section">
+					<a 
+						className="fish-card-seafood-link"
+						href={`http://www.seafoodwatch.org/seafood-recommendations/groups/${data.name.toLowerCase()}/overview`} 
+						target="_blank"
+					>Seafood Watch</a>
 				</section>
 				{/*
 				<section className="fish-card-section">
