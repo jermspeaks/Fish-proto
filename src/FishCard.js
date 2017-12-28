@@ -34,6 +34,7 @@ class FishCard extends Component {
 				<header className="fish-card-header">
 					<div className="fish-card-header-title">{data.name}</div>
 				</header>
+				{/*
 				<section className="fish-card-section">
 					<div className="fish-card-conservation">
 						<div className="fish-card-conservation-title">Conservation Status</div>
@@ -41,9 +42,11 @@ class FishCard extends Component {
 						<div className="fish-card-conservation-rank">Rank: {this.state.conservationStatus.name}</div>
 					</div>
 				</section>
+				*/}
 				<section className="fish-card-section">
-					<img src={data.imageUrl} width="320" alt={data.name} />
+					<img src={data.imageSrc} alt={data.imageAlt} />
 				</section>
+				{/*
 				<section className="fish-card-section">
 					{this.state.showMore ? (
 						<p>{data.shortAssessment}</p>
@@ -59,6 +62,7 @@ class FishCard extends Component {
 						>{this.state.showMore ? "Show More" : "Show Less"}</button>
 					</div>
 				</section>
+				*/}
 			</div>
 		);
 	}
