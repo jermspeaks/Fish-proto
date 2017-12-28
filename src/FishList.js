@@ -69,7 +69,7 @@ class FishList extends Component {
 					</div>
 					<div className="fish-alphabet-filter">
 						<ul className="fish-alphabet-filter-list">
-							{'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map((letter, index) => {
+							{'ABCDEFGHIKLMOPRSTVW'.split('').map((letter, index) => {
 								const isSelected = this.state.selectedLetter === letter;
 								const letterContainerClassName = classnames('fish-alphabet-filter-box', {
 									'fish-alphabet-filter-box--selected': isSelected
