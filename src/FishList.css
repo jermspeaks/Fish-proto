@@ -27,6 +27,8 @@
 	width: 100%;
 	line-height: 2em;
 	font-size: 1em;
+	padding-left: 0.5em;
+	box-sizing: border-box;
 }
 
 .fish-results {
@@ -47,6 +49,7 @@
 .fish-alphabet-filter-letter:hover {
 	background: #ccc;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .fish-alphabet-filter-box {
@@ -58,6 +61,7 @@
 	padding-right: 0.5em;
 	text-align: center;
 	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 
 .fish-alphabet-filter-box--selected {
@@ -65,5 +69,6 @@
 }
 
 .fish-alphabet-filter-box--selected:hover {
-	background: #e5e500;	
+	background: #e5e500;
+	border-radius: 5px;	
 }
