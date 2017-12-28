@@ -2,14 +2,17 @@
   "name": "fish-proto",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://www.craftbyzen.com/Fish-proto/",
+  "homepage": "http://www.craftbyzen.com/Fish-proto/",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "lodash": "^4.17.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
